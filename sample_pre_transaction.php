@@ -104,7 +104,7 @@ if ('POST' === $_SERVER['REQUEST_METHOD']) {
     <div class="js-pay-button-wrapper">
         <img class="v-button" alt="Visa Checkout" src="<?php echo $visaCheckoutButtonImageUrl; ?>" role="button">
     </div>
-    <script src="js/visa-checkout.min.js"></script>
+    <script src="js/visa-checkout.js"></script>
     <script src="<?php echo $visaCheckoutJsUrl; ?>"></script>
     <script>
         const vc = new VisaCheckout('<?php echo $visaCheckoutApiKey ?>');
