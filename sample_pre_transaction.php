@@ -59,6 +59,10 @@ $visaCheckoutButtonImageUrl = 'https://sandbox.secure.checkout.visa.com/wallet-s
 <body>
 <?php
 if ('POST' === $_SERVER['REQUEST_METHOD']) {
+    /*
+     * Start transakcji metodą przedtransakcji.
+     * Szczegółowe informacje na temat startowania transakcji metodą przedtransakcji znajdują się w dodatku do specyfikacji integracji.
+     */
     $data = [
         'ServiceID'     => $bmServiceId,                          // Parametr wymagany.
         'OrderID'       => date('YmdHis'),                 // Parametr wymagany.
