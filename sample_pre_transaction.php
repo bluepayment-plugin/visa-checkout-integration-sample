@@ -13,7 +13,7 @@
  * Uwaga! Poniższa konfiguracja dotyczy środowiska testowego, nie produkcyjnego!
  */
 
-// Link do bramki, na które wysyłane są parametry do rozpoczęcia transakcji.
+// Link do bramki, na który wysyłane są parametry do rozpoczęcia transakcji.
 $bmGatewayUrl = 'https://pay-accept.bm.pl/payment';
 
 // Identyfikator serwisu.
